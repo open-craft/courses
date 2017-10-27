@@ -1,14 +1,25 @@
 {
     "course/course": {
+        "catalog_visibility": "about", 
         "cert_html_view_enabled": true, 
+        "course_image": "opencraftlogo.png", 
         "discussion_topics": {
             "General": {
                 "id": "course"
             }
         }, 
-        "display_name": "Onboarding", 
+        "display_name": "OpenCraft's on-boarding", 
+        "end": "2017-09-03T00:00:00Z", 
+        "enrollment_end": "2017-09-01T00:00:00Z", 
+        "enrollment_start": "2017-08-01T00:00:00Z", 
+        "graceperiod": "", 
+        "instructor_info": {
+            "instructors": []
+        }, 
         "language": "en", 
-        "start": "2030-01-01T00:00:00Z", 
+        "learning_info": [], 
+        "minimum_grade_credit": 0.8, 
+        "start": "2017-08-29T00:00:00Z", 
         "tabs": [
             {
                 "course_staff_only": false, 
@@ -40,6 +51,12 @@
                 "name": "Progress", 
                 "type": "progress"
             }
-        ]
+        ], 
+        "xml_attributes": {
+            "filename": [
+                "course/course.xml", 
+                "course/course.xml"
+            ]
+        }
     }
 }

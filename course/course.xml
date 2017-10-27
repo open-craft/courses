@@ -1,3 +1,4 @@
-<course cert_html_view_enabled="true" display_name="Onboarding" language="en" start="&quot;2030-01-01T00:00:00+00:00&quot;">
-  <wiki slug="OpenCraft.OC-101.Oct2017"/>
+<course catalog_visibility="about" cert_html_view_enabled="true" course_image="opencraftlogo.png" display_name="OpenCraft's on-boarding" end="&quot;2017-09-03T00:00:00+00:00&quot;" enrollment_end="&quot;2017-09-01T00:00:00+00:00&quot;" enrollment_start="&quot;2017-08-01T00:00:00+00:00&quot;" graceperiod="" instructor_info="{&quot;instructors&quot;: []}" language="en" learning_info="[]" minimum_grade_credit="0.8" start="&quot;2017-08-29T00:00:00+00:00&quot;">
+  <chapter url_name="286bb327514544a7b510ef471a80ab1a"/>
+  <wiki slug="PearsonX.BDE101.Oct2017"/>
 </course>

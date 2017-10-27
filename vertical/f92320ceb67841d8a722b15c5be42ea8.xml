@@ -1,0 +1,120 @@
+<vertical display_name="Networking Assignment">
+  <html url_name="c29edd3f779d4a518ac02d71cf98d054"/>
+  <openassessment url_name="c0e49d7d156b42a3a683fefbb1b4d717" submission_start="2001-01-01T00:00:00" submission_due="2017-10-27T00:00:00" leaderboard_show="5" text_response="optional" file_upload_response="required" file_upload_type="custom" white_listed_file_types="pdf,doc,docx" allow_latex="False">
+    <title>Open Response Assessment</title>
+    <assessments>
+      <assessment name="student-training">
+        <example>
+          <answer>
+            <part>Replace this text with your own sample response for this assignment. Then, under Response Score to the right, select an option for each criterion. Learners practice performing peer assessments by assessing this response and comparing the options that they select in the rubric with the options that you specified.</part>
+          </answer>
+          <select criterion="Ideas" option="Fair"/>
+          <select criterion="Content" option="Poor"/>
+          <select criterion="0" option="2"/>
+          <select criterion="1" option="0"/>
+        </example>
+        <example>
+          <answer>
+            <part>Replace this text with another sample response, and then specify the options that you would select for this response.</part>
+          </answer>
+          <select criterion="Ideas" option="Poor"/>
+          <select criterion="Content" option="Fair"/>
+          <select criterion="0" option="1"/>
+          <select criterion="1" option="2"/>
+        </example>
+      </assessment>
+      <assessment name="peer-assessment" must_grade="2" must_be_graded_by="1" start="2001-01-01T00:00:00" due="2017-10-31T00:00:00"/>
+    </assessments>
+    <prompts>
+      <prompt>
+        <description>Please upload your Networking assignment here. After it has been submitted you will be able to access the assessment process where you will evaluate a peer's submission against the associated assignment rubric.</description>
+      </prompt>
+    </prompts>
+    <rubric>
+      <criterion feedback="optional">
+        <name>Ideas</name>
+        <label>Bucket Activity</label>
+        <prompt>Bucket Activity Details</prompt>
+        <option points="1">
+          <name>Poor</name>
+          <label>Developing</label>
+          <explanation>There are fewer than 10 names per bucket and either the position title or how the contact can help is missing from more than 10 contacts.</explanation>
+        </option>
+        <option points="3">
+          <name>Fair</name>
+          <label>Good</label>
+          <explanation>There are 10 names in each bucket but either position title or a description of how each can help may be missing on up to 10 contacts.</explanation>
+        </option>
+        <option points="5">
+          <name>Good</name>
+          <label>Exemplary</label>
+          <explanation>There are at least 10 names in Buckets A, B, and C that include position title and a bullet about how they can help.</explanation>
+        </option>
+      </criterion>
+      <criterion feedback="optional">
+        <name>Content</name>
+        <label>Contact Engagement Strategy</label>
+        <prompt>Contact Engagement Details</prompt>
+        <option points="1">
+          <name>Poor</name>
+          <label>Developing</label>
+          <explanation>The participant articulates fewer than 3 strategies. Ideas for how to put them into practice may be lacking.</explanation>
+        </option>
+        <option points="3">
+          <name>Fair</name>
+          <label>Good</label>
+          <explanation>The participant articulates at least 3 strategies that include both virtual and in-person approaches along with how to put them into practice.</explanation>
+        </option>
+        <option points="5">
+          <name>Excellent</name>
+          <label>Exemplary</label>
+          <explanation>The participant articulates at least 5 strategies that include both virtual and in-person approaches along with how to put them into practice. </explanation>
+        </option>
+      </criterion>
+      <criterion feedback="optional">
+        <name>0</name>
+        <label>Contact Log</label>
+        <prompt>Contact Log details</prompt>
+        <option points="1">
+          <name>0</name>
+          <label>Developing</label>
+          <explanation>Contact log is filled in for at least 5 contacts but some of the detail for dates, place and follow-up actions may be planned but not executed.</explanation>
+        </option>
+        <option points="3">
+          <name>1</name>
+          <label>Good</label>
+          <explanation>Contact log is complete for at least 7 contacts that includes dates, place and follow-up actions that have been completed.</explanation>
+        </option>
+        <option points="5">
+          <name>2</name>
+          <label>Exemplary</label>
+          <explanation>Contact log is completed for at least 10 contacts that includes dates, place and follow-up actions that have been completed.</explanation>
+        </option>
+      </criterion>
+      <criterion feedback="optional">
+        <name>1</name>
+        <label>Sustainable Plan</label>
+        <prompt>Sustainable Plan details</prompt>
+        <option points="1">
+          <name>0</name>
+          <label>Developing</label>
+          <explanation>Plan to put strategies into practice does not adequately describe how the strategies have been implemented or budgeted into the future.</explanation>
+        </option>
+        <option points="3">
+          <name>1</name>
+          <label>Good</label>
+          <explanation>Plan to put strategies into practice shows evidence of having been completed for now but it appears to have been a one time effort that hasn’t been budgeted for the future.</explanation>
+        </option>
+        <option points="5">
+          <name>2</name>
+          <label>Exemplary</label>
+          <explanation>Plan to put strategies into practice describes how these changes will fit into the participant’s daily, weekly or monthly schedule.</explanation>
+        </option>
+      </criterion>
+      <feedbackprompt>(Optional) What aspects of this response stood out to you? What did it do well? How could it be improved?
+</feedbackprompt>
+      <feedback_default_text>I think that this response...
+</feedback_default_text>
+    </rubric>
+  </openassessment>
+</vertical>

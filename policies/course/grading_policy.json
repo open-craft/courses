@@ -10,6 +10,7 @@
         {
             "drop_count": 2, 
             "min_count": 12, 
+            "short_label": "", 
             "type": "Lab", 
             "weight": 0.15
         }, 
@@ -29,6 +30,6 @@
         }
     ], 
     "GRADE_CUTOFFS": {
-        "Pass": 0.5
+        "Pass": 0.3
     }
 }
