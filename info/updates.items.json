@@ -1,0 +1,14 @@
+[
+    {
+        "content": "Sample Announcement", 
+        "date": "September 26, 2017", 
+        "id": 1, 
+        "status": "visible"
+    }, 
+    {
+        "content": "Course opens today! Login and go to Orientation to get started!", 
+        "date": "September 27, 2017", 
+        "id": 2, 
+        "status": "visible"
+    }
+]
