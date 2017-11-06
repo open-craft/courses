@@ -1,0 +1,10 @@
+<sequential display_name="Open edX devstack">
+ <vertical url_name="open_edx_devstack_introduction">
+ </vertical>
+ <vertical url_name="open_edx_devstack_installation">
+ </vertical>
+ <vertical url_name="open_edx_devstack_pycharm_integration">
+ </vertical>
+ <vertical url_name="open_edx_devstack_tips_and_tricks">
+ </vertical>
+</sequential>

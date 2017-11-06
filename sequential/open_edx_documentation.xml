@@ -1,0 +1,10 @@
+<sequential display_name="Open edX documentation">
+ <vertical url_name="open_edx_documentation_introduction">
+ </vertical>
+ <vertical url_name="open_edx_documentation_building_and_running_an_edx_course">
+ </vertical>
+ <vertical url_name="open_edx_documentation_xblock_tutorial">
+ </vertical>
+ <vertical url_name="open_edx_documentation_official_edx_documentation">
+ </vertical>
+</sequential>
