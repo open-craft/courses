@@ -1,6 +1,4 @@
 <sequential display_name="First technical task">
- <vertical url_name="first_technical_task_first_task">
- </vertical>
- <vertical url_name="first_technical_task_good_luck">
- </vertical>
+  <vertical url_name="first_technical_task_first_task"/>
+  <vertical url_name="first_technical_task_good_luck"/>
 </sequential>

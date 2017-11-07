@@ -1,20 +1,11 @@
 <vertical display_name="Ticket statuses">
- <html url_name="opencraft_ticket_statuses_1">
- </html>
- <html url_name="opencraft_ticket_statuses_2">
- </html>
- <html url_name="opencraft_ticket_statuses_3">
- </html>
- <html url_name="opencraft_ticket_statuses_4">
- </html>
- <html url_name="opencraft_ticket_statuses_5">
- </html>
- <html url_name="opencraft_ticket_statuses_6">
- </html>
- <html url_name="opencraft_ticket_statuses_7">
- </html>
- <html url_name="opencraft_ticket_statuses_8">
- </html>
- <html url_name="opencraft_ticket_statuses_9">
- </html>
+  <html url_name="opencraft_ticket_statuses_1"/>
+  <html url_name="opencraft_ticket_statuses_2"/>
+  <html url_name="opencraft_ticket_statuses_3"/>
+  <html url_name="opencraft_ticket_statuses_4"/>
+  <html url_name="opencraft_ticket_statuses_5"/>
+  <html url_name="opencraft_ticket_statuses_6"/>
+  <html url_name="opencraft_ticket_statuses_7"/>
+  <html url_name="opencraft_ticket_statuses_8"/>
+  <html url_name="opencraft_ticket_statuses_9"/>
 </vertical>

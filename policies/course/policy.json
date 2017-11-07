@@ -13,6 +13,7 @@
         "instructor_info": {
             "instructors": []
         }, 
+        "invitation_only": true, 
         "language": "en", 
         "learning_info": [], 
         "minimum_grade_credit": 0.8, 

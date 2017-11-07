@@ -1,6 +1,4 @@
 <sequential display_name="Pull requests">
- <vertical url_name="pull_requests_pull_requests">
- </vertical>
- <vertical url_name="pull_requests_sandboxes">
- </vertical>
+  <vertical url_name="pull_requests_pull_requests"/>
+  <vertical url_name="pull_requests_sandboxes"/>
 </sequential>
