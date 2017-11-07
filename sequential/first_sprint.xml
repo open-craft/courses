@@ -1,20 +1,11 @@
 <sequential display_name="First sprint">
- <vertical url_name="first_sprint_introduction">
- </vertical>
- <vertical url_name="first_sprint_expectations">
- </vertical>
- <vertical url_name="first_sprint_sprint_planning_agenda">
- </vertical>
- <vertical url_name="first_sprint_task_tracker">
- </vertical>
- <vertical url_name="first_sprint_jira_swim_lanes">
- </vertical>
- <vertical url_name="first_sprint_point_estimates">
- </vertical>
- <vertical url_name="first_sprint_first_assigned_task">
- </vertical>
- <vertical url_name="first_sprint_sprint_commitments_spreadsheets">
- </vertical>
- <vertical url_name="first_sprint_ready">
- </vertical>
+  <vertical url_name="first_sprint_introduction"/>
+  <vertical url_name="first_sprint_expectations"/>
+  <vertical url_name="first_sprint_sprint_planning_agenda"/>
+  <vertical url_name="first_sprint_task_tracker"/>
+  <vertical url_name="first_sprint_jira_swim_lanes"/>
+  <vertical url_name="first_sprint_point_estimates"/>
+  <vertical url_name="first_sprint_first_assigned_task"/>
+  <vertical url_name="first_sprint_sprint_commitments_spreadsheets"/>
+  <vertical url_name="first_sprint_ready"/>
 </sequential>

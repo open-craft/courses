@@ -1,20 +1,10 @@
 <sequential display_name="GitHub configuration">
- <vertical url_name="github_configuration_introduction">
- </vertical>
- <vertical url_name="github_configuration_publicizing_your_e-mail">
- </vertical>
- <vertical url_name="github_configuration_showing_a_real_name">
- </vertical>
- <vertical url_name="github_configuration_publicizing_your_github_membership">
- </vertical>
- <vertical url_name="github_configuration_activating_2-factor_authentication">
- </vertical>
- <vertical url_name="github_configuration_managing_ssh_keys">
- </vertical>
- <vertical url_name="github_configuration_managing_oauth_applications">
- </vertical>
- <vertical url_name="github_configuration_managing_personal_access_tokens">
- </vertical>
- <vertical url_name="github_configuration_using_an_@opencraft_e-mail_with_git">
- </vertical>
+  <vertical url_name="github_configuration_introduction"/>
+  <vertical url_name="github_configuration_publicizing_your_e-mail"/>
+  <vertical url_name="github_configuration_showing_a_real_name"/>
+  <vertical url_name="github_configuration_publicizing_your_github_membership"/>
+  <vertical url_name="github_configuration_activating_2-factor_authentication"/>
+  <vertical url_name="github_configuration_managing_ssh_keys"/>
+  <vertical url_name="github_configuration_managing_oauth_applications"/>
+  <vertical url_name="github_configuration_managing_personal_access_tokens"/>
 </sequential>

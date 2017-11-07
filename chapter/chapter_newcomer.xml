@@ -1,28 +1,15 @@
 <chapter display_name="A newcomer">
- <sequential url_name="introduction_newcomer">
- </sequential>
- <sequential url_name="opencraft">
- </sequential>
- <sequential url_name="whats_expected">
- </sequential>
- <sequential url_name="time_management_and_invoices">
- </sequential>
- <sequential url_name="security">
- </sequential>
- <sequential url_name="open_edx_devstack">
- </sequential>
- <sequential url_name="pull_requests">
- </sequential>
- <sequential url_name="github_configuration">
- </sequential>
- <sequential url_name="configuration_of_the_opencraft_e-mail">
- </sequential>
- <sequential url_name="open_edx_documentation">
- </sequential>
- <sequential url_name="first_sprint">
- </sequential>
- <sequential url_name="first_technical_task">
- </sequential>
- <sequential url_name="thats_it">
- </sequential>
+  <sequential url_name="introduction_newcomer"/>
+  <sequential url_name="opencraft"/>
+  <sequential url_name="whats_expected"/>
+  <sequential url_name="time_management_and_invoices"/>
+  <sequential url_name="security"/>
+  <sequential url_name="open_edx_devstack"/>
+  <sequential url_name="pull_requests"/>
+  <sequential url_name="github_configuration"/>
+  <sequential url_name="configuration_of_the_opencraft_e-mail"/>
+  <sequential url_name="open_edx_documentation"/>
+  <sequential url_name="first_sprint"/>
+  <sequential url_name="first_technical_task"/>
+  <sequential url_name="thats_it"/>
 </chapter>

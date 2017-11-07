@@ -7,12 +7,12 @@
             "name": "opencraftlogo.png", 
             "org": "OpenCraft", 
             "revision": null, 
-            "run": "2017_10", 
+            "run": "course", 
             "tag": "c4x"
         }, 
         "displayname": "opencraftlogo.png", 
-        "filename": "asset-v1:OpenCraft+onboarding+2017_10+type@asset+block@opencraftlogo.png", 
-        "import_path": null, 
+        "filename": "asset-v1:OpenCraft+onboarding+course+type@asset+block@opencraftlogo.png", 
+        "import_path": "opencraftlogo.png", 
         "locked": false, 
         "thumbnail_location": [
             "c4x", 
