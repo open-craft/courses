@@ -1,6 +1,6 @@
 {
     "course/course": {
-        "catalog_visibility": "about", 
+        "catalog_visibility": "both", 
         "cert_html_view_enabled": true, 
         "course_image": "opencraftlogo.png", 
         "discussion_topics": {
@@ -9,9 +9,6 @@
             }
         }, 
         "display_name": "OpenCraft's on-boarding", 
-        "end": "2017-09-03T00:00:00Z", 
-        "enrollment_end": "2017-09-01T00:00:00Z", 
-        "enrollment_start": "2017-08-01T00:00:00Z", 
         "graceperiod": "", 
         "instructor_info": {
             "instructors": []
