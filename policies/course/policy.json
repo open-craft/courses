@@ -13,10 +13,11 @@
         "instructor_info": {
             "instructors": []
         }, 
-        "invitation_only": true, 
+        "invitation_only": false, 
         "language": "en", 
         "learning_info": [], 
         "minimum_grade_credit": 0.8, 
+        "no_grade": true, 
         "start": "2017-08-29T00:00:00Z", 
         "tabs": [
             {
