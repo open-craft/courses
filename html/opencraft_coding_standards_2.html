@@ -1,0 +1,13 @@
+<h4>Tests</h4>
+<p>Test coverage is our insurance policy against upstream changes, and so we are careful to ensure that the features we write are tested well. You can find the commands to run the different types of tests in our documentation: <a href="https://github.com/open-craft/documentation/blob/master/Code_quality_and_tests.md" target="_blank">Code quality and tests</a>.</p>
+<p>We care about things like this:</p>
+<ul>
+  <li>Test the required behaviour, not the way the code is written.</li>
+  <li>When implementing a feature for a client, ensure that the specific configuration settings that the client will rely on are well tested.</li>
+</ul>
+<p>But we try <em>not</em> to:</p>
+<p></p>
+<ul>
+  <li>Create brittle tests which will fail easily if someone changes anything related to the code.</li>
+  <li>Reproduce logic from the code in the tests. Hard-coded expected results in tests are far easier to debug than a function which reproduces the code functionality to generate the expected response.</li>
+</ul>
