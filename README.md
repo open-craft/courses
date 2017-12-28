@@ -2,7 +2,9 @@
 
 ![OpenCraft Logo](opencraft-logo.png)
 
-This repository contains all the courses that are publically available on courses.opencraft.com.
+This repository contains all the courses that are publically available on courses.opencraft.com:
+
+* [**Onboarding course**](https://courses.opencraft.com/courses/course-v1:OpenCraft+onboarding+course/about): Download [onboarding.tar.gz](https://github.com/open-craft/courses/archive/onboarding.tar.gz) (`course-v1:OpenCraft+onboarding+course`) or [browse source](https://github.com/open-craft/courses/tree/onboarding).
 
 ## How to add a new course to this repository
 
