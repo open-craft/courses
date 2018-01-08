@@ -1,24 +1,30 @@
 <p>
-  Please install
-  <strong>the master branch of the Open edX developer stack</strong>. There are two versions of it:
+  There are two versions of the edX devstack.
 </p>
-<ul>
-  <li>
-    <a href="https://github.com/open-craft/documentation/blob/master/docker-devstack" target="_blank">a newer Docker version</a>
-    (the <em>README</em>
-    of its GitHub repo has pretty explicit, simple, well-tested steps on how it's setup)
-  </li>
-  <li>
-    an older Vagrant devstack (to get it up and running, please follow
-    <a href="https://github.com/open-craft/documentation/blob/master/devstack_setup.md" target="_blank">OpenCraft custom instructions</a>,
-    <a href="http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/devstack/install_devstack.html" target="_blank">edX simple instruction</a>
-    or
-    <a href="https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/60227787/Running+Devstack" target="_blank">complete explanations</a>)
-  </li>
-</ul>
 <p>
-  From the experience of the past newcomers it seems like the Docker devstack
-  is easier to get started with. Although, for some tasks (e.g. McKinsey)
-  you may need a Vagrant devstack. If you're not sure which one to choose,
-  please ask the reviewer of your on-boarding JIRA task.
+  A <a href="https://github.com/edx/devstack">Docker version</a>
+  and a deprecated <a href="https://github.com/open-craft/documentation/blob/master/devstack_setup.md">Vagrant version</a>.
+  While at some point in time you are likely going to
+  need <strong>both</strong> working, you should focus on
+  getting the Docker devstack up first.
+</p>
+<p>
+  Much of the work that Open-Craft creates ends up being upstreamed
+  to <a href="https://github.com/edx/edx-platform">edx/edx-platform</a>.
+  This repository is the latest code and works very well with the newer Docker
+  devstack. While the Vagrant devstack works as well for master work, it can be
+  complicated and many people have had issues with getting it to work.
+</p>
+<p>
+  For many of the client branches the Vagrant devstack is a <strong>must</strong>.
+  <a href="https://github.com/mckinseyacademy/mcka_apros/blob/master/docs/SetupNotes.md">McKinsey Apros</a>
+  and legacy systems that are not using the latest edx/edx-platform require
+  the use of a Vagrant devstack. Until you are working on one of these tickets,
+  or have some free cycles to put towards downloading and waiting it may be best
+  to avoid setting up the Vagrant devstack.
+</p>
+<p>
+  Having said that, until things change, you'll eventually need both working.
+  If you're not sure which one to choose, please ask the reviewer of your
+  on-boarding JIRA task.
 </p>
