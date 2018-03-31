@@ -3,4 +3,5 @@
   <vertical url_name="open_edx_devstack_installation"/>
   <vertical url_name="open_edx_devstack_pycharm_integration"/>
   <vertical url_name="open_edx_devstack_tips_and_tricks"/>
+  <vertical url_name="open_edx_devstack_client_devstacks"/>
 </sequential>
