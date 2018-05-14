@@ -1,10 +1,96 @@
 <sequential display_name="First sprint">
-  <vertical url_name="first_sprint_introduction"/>
-  <vertical url_name="first_sprint_expectations"/>
-  <vertical url_name="first_sprint_sprint_planning_agenda"/>
-  <vertical url_name="first_sprint_task_tracker"/>
-  <vertical url_name="first_sprint_point_estimates"/>
-  <vertical url_name="first_sprint_first_assigned_task"/>
-  <vertical url_name="first_sprint_sprint_commitments_spreadsheets"/>
-  <vertical url_name="first_sprint_ready"/>
+
+  <vertical display_name="Introduction" url_name="first_sprint_introduction">
+    <html url_name="first_sprint_introduction_1">
+      <p>
+        Now that you're all set and ready to go, let's get prepared for your first sprint!
+      </p>
+    </html>
+  </vertical>
+
+  <vertical display_name="Expectations" url_name="first_sprint_expectations">
+    <html url_name="first_sprint_expectations_1">
+      <p>As a newcomer you should:</p>
+      <p></p>
+      <ol>
+        <li>
+          Not commit to more than <strong>3 points</strong>
+          of tasks during your first week, or 5 points your second week
+          (so 8 points in a two-week sprint).
+          It's really easy to over-commit at first, so keep your commitments manageable.
+          If you finish early you can always ask in the
+          <a href="https://chat.opencraft.com/opencraft/channels/sprint-planning"><em>Sprint planning</em></a>
+          channel whether someone needs any help,
+          and take on more work later in the sprint.
+        </li>
+        <li>
+          Provide lots of updates to your assigned reviewer/mentor for each task,
+          so they can provide timely help.
+        </li>
+      </ol>
+    </html>
+  </vertical>
+
+  <vertical display_name="Sprint planning agenda" url_name="first_sprint_sprint_planning_agenda">
+    <html url_name="first_sprint_sprint_planning_agenda_1">
+      <p>
+        Please read
+        <a href="https://github.com/open-craft/documentation/blob/master/sprint_planning_agenda.md" target="_blank">Sprint planning agenda</a>
+        to see the agenda for our weekly meeting.
+      </p>
+    </html>
+  </vertical>
+
+  <vertical display_name="Task tracker" url_name="first_sprint_task_tracker">
+    <html url_name="first_sprint_task_tracker_1">
+      <p>
+        Please visit the JIRA task tracker, especially the
+        <a href="https://tasks.opencraft.com/secure/RapidBoard.jspa?rapidView=5&amp;amp;view=detail" target="_blank">Weekly sprint</a>
+        and look at some of the tickets on the board, to get a feel
+        for the type of tasks awaiting you in the near future.
+      </p>
+    </html>
+  </vertical>
+
+  <vertical display_name="Point estimates" url_name="first_sprint_point_estimates">
+    <html url_name="first_sprint_point_estimates_1">
+      <p>
+        Please participate in the grooming session (point estimation) that
+        the team does at the end of each sprint.
+        Usually you should get an email about this and can follow the link
+        to reach the estimation page, but if not, try
+        <a href="https://tasks.opencraft.com/projects/OC?selectedItem=com.spartez.jira.plugins.jiraplanningpoker:pokerng-project-side-panel-link&amp;rapidView=5&amp;source=sidebar" target="_blank">this link</a>
+        to see if you have been invited to any session. When grooming, you
+        don't have to provide a number of points for every issue (or even
+        most) - put '?' if you don't feel you have enough knowledge to
+        estimate a task.
+      </p>
+    </html>
+  </vertical>
+
+  <vertical display_name="First assigned task" url_name="first_sprint_first_assigned_task">
+    <html url_name="first_sprint_first_assigned_task_1">
+      <p>
+        Your first technical task will be assigned to you by CTO.
+        If he hasn't done it yet, please ask him to do so.
+      </p>
+    </html>
+  </vertical>
+
+  <vertical display_name="Sprint commitments spreadsheets" url_name="first_sprint_sprint_commitments_spreadsheets">
+    <html url_name="first_sprint_sprint_commitments_spreadsheets_1">
+      <p>
+        Please peek at the <a href="https://docs.google.com/spreadsheets/d/1DDY_sybGnhM5k3ttOs3C78wpXsFJAqpAcUTlvPInNJ8/edit#gid=802219907" target="_blank">sprint commitments spreadsheet</a> and modify your numbers in the appropriate columns shortly before the sprint kick-off meeting.
+      </p>
+    </html>
+  </vertical>
+
+  <vertical display_name="Ready!" url_name="first_sprint_ready">
+    <html url_name="first_sprint_ready_1">
+      <p>
+        You're ready! Attend your first sprint kick-off meeting!
+      </p>
+    </html>
+  </vertical>
+
 </sequential>
