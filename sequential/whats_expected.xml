@@ -3,11 +3,9 @@
   <vertical url_name="whats_expected_opencraft_team_member"/>
   <vertical url_name="whats_expected_code_reviewer"/>
   <vertical url_name="whats_expected_someone_new_to_the_team"/>
-  <vertical url_name="whats_expected_subteam_member"/>
   <vertical url_name="whats_expected_sprint_firefighter"/>
   <vertical url_name="whats_expected_admin"/>
   <vertical url_name="whats_expected_business_developer"/>
   <vertical url_name="whats_expected_weeks_discovery_duty_asignee"/>
   <vertical url_name="whats_expected_epic_owner"/>
-  <vertical url_name="whats_expected_subteam_owner"/>
 </sequential>

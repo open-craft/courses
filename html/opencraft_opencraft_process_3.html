@@ -14,23 +14,18 @@
 <ul>
   <li>
     <p>
-      All tasks are split up into epics, and the epics are also assigned to specific "subteams".
+      All tasks are split up into epics, and each epic has an "epic owner."
     </p>
   </li>
   <li>
     <p>
-      By Monday at 11am UTC, the epic subteam owner will make sure each story
-      in the upcoming sprint is "groomed". This means that we each estimate
-      the complexity of each task in terms of "story points".
+      Near the end of each sprint, in preparation for the next one, the team
+      will do an asynchronous "grooming" session. This means that we each
+      estimate the complexity of each task in the upcoming sprint in terms
+      of "story points". (Currently, Uman is the one who starts this grooming
+      session and invites everyone to it.)
     </p>
     <ul>
-      <li>
-        The subteam owner can decide how the grooming should work,
-        but it usually involves everyone in the subteam using
-        the asynchronous grooming tool we have built in to JIRA. Grooming invites
-        should be sent out as early as possible on Friday to ensure
-        everyone can participate before the deadline.
-      </li>
       <li>
         We use story points as a shorthand for agreeing about the complexity of a task.
         Story points are meant to be a relatively objective measure of "complexity",
@@ -42,8 +37,7 @@
       <li>
         If anything about the task or the acceptance criteria is unclear,
         post a question as a comment on the task and try to work with the epic owner
-        to get it answered before the meeting. (If there is no epic owner assigned yet,
-        ask the subteam owner.)
+        (or the reporter if there is no epic owner) to get it answered before the meeting.
         <br />
         Note that during the asynchronous grooming sessions, any comments/questions
         posted in the estimation session will be lost once the grooming session ends,
@@ -53,21 +47,25 @@
   </li>
   <li>
     <p>
-      Likewise, before the Monday planning meeting, everyone in each subteam works
+      Likewise, before the Monday planning meeting, everyone works
       to asynchronously assign each story in the upcoming sprint to a developer
       and a code reviewer.
     </p>
     <ul>
       <li>
-        The subteam owner is responsible for making sure this happens.
+        The epic owner is responsible for making sure this happens for each story
+        in their epics that must happen in the upcoming sprint. For stories that
+        don't have an epic owner, either the tentative assignee (if there is one
+        already) or the person who reported the ticket is responsible for doing
+        this; this is also documented
+        <a href="https://gitlab.com/opencraft/dev/jira-scripts/blob/bf4ea0ae3447fc2ae2098444c2b13a7d2f9e06c3/ReadyForSprintReminder.groovy#L112-124">in our Jira bot Crafty's code</a>.
       </li>
       <li>
-        The subteam owner should also check the weekly time allocation
-        for the upcoming sprints, ensuring subteam members are assigned to tasks
-        roughly corresponding to their subteam time allocations,
-        that the necessary work to match deadlines is included in the upcoming sprints,
-        and that all tasks from their subteam that are above the line
-        (and perhaps some below the line) in the upcoming sprint have a green checkmark.
+        Epic owners should also check the
+        <a href="https://tasks.opencraft.com/rest/scriptrunner/latest/custom/showOpenCraftReport">Sprint Planning Report</a>
+        for the upcoming sprint, ensuring that the tasks the team plans to take on
+        for the upcoming sprint are in line with each client's budget and each
+        epic's budget.
       </li>
     </ul>
   </li>
