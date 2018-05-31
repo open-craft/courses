@@ -29,11 +29,13 @@
         <li>
           I can set my own work schedule, and work when I want during the week,
           as long as <strong>I remain available to answer to others</strong>
-          (please see: the <strong>Comunication</strong> section below)
+          (please see: the <strong>Communication</strong> section below)
         </li>
         <li>
           (In general) <strong>I am expected <em>not</em> to work weekends</strong>
-          (unless I'm behind on my commitments).
+          (unless I'm behind on my commitments), which should remain an exception, not the rule!
+          If you find yourself working on week ends more than once per month, that likely reflects
+          an issue with your time management that needs fixing.
         </li>
         <li>
           I will work at least the amount of hours per week that is
@@ -47,17 +49,8 @@
           to do code review know that).
         </li>
         <li>
-          When taking time off (including any Mondays, or anytime I want more
-          than one work day in a row off), I will check with Xavier first,
-          and ask at least two weeks in advance
-          (one month in advance for a week or more of vacation).
-          <ul>
-            <li>
-              This includes national holidays and Christmas, etc. so I'll make sure
-              to request those dates off if I want them off (as an international team,
-              we don't take any holidays off by default).
-            </li>
-          </ul>
+          When taking time off follow the procedure described on the
+          <a href="/jump_to_id/opencraft_vacation">vacation's section</a>.
         </li>
         <li>
           If I'm unexpectedly sick or unavailable due to an emergency,
@@ -130,7 +123,7 @@
               have a chat or schedule a meeting. JIRA might have long response cycles (around
               1 day turnaround). If this time isn't enough to unblock someone and
               finish their sprint commitments, use Mattermost, even though
-              it's more disruptive to people's workflow.</li>
+              it's more disruptive to people's workflow.
             </li>
             <li>
               If you do have a synchronous conversation with someone about a particular task,
@@ -220,6 +213,16 @@
           to make sure they have time when you get your work ready for review.
         </li>
         <li>
+          I will spend time to plan each task at the beginning of each sprint, including scheduling the
+          review with the reviewer. Make sure you have an answer for:
+            <ol>
+              <li>When do each step of the task need to be completed?</li>
+              <li>Which days will you work on which task?</li>
+              <li>When do individual parts need to be completed to be on time?</li>
+            </ol>
+          It's also important to keep some margin on the sprint, in case something doesn't go as expected.
+        </li>
+        <li>
           I will get my tasks to at least
           <strong>External Review</strong>
           (or "Merged" if no external review is required) by
@@ -247,7 +250,8 @@
         <li>
           I will be helpful to team members, responding to questions,
           helping with debugging, providing advice, or even taking over tasks
-          if I have time and they are overloaded.
+          if I have time and they are overloaded. This has precedence over starting
+          to work on new tasks, when finishing a sprint early.
         </li>
         <li>
           Once a sprint, I will review all of my tasks that are in "Long External Review/Blocked"
@@ -372,6 +376,48 @@
           so they can provide timely help.
         </li>
       </ol>
+
+      <p>
+        Additionally, here are some of the things the core team looks for
+        when it comes time to evaluate newcomers near the end of their trial period,
+        and some general advice about each of them:
+      </p>
+      <ol>
+        <li>
+          Delivering On-Time: Avoiding spillover and delivering on schedule is really
+          important in an environment where we make direct promises to clients about
+          deliverables. Our reputation as an organization is on the line when we cannot
+          deliver as we promised, so it matters tremendously to us to see a newcomer
+          making deadlines consistently. It's required that you communicate explicitly
+          when you feel there is going to be spillover, as soon as you can detect it, and
+          try to find someone else who can complete or help you complete them. It’s totally
+          ok to do this, and even welcomed by people who have time left in their sprint.
+          We are a team, and we work together to avoid spillover.
+        </li>
+        <li>
+          Communicative: As stressed above, as an international remote team, there is
+          little progress we can make if we don't constantly communicate (with respect
+          to not being interruptive if it isn't necessarily urgent). We promise you
+          that we didn't recruit any mind readers! We won't magically figure anything
+          out unless it's been talked about, through any of our multiple modes of communciation.
+          You should be communicating with your reviewers daily or every 2 days minimum on what
+          your progress on their task is (by commenting on the JIRA tickets). Even if they have
+          no questions, just stating status is important and can give reviewers/mentors somewhere
+          to jump in and help.
+        </li>
+        <li>
+          Show your skills: It's important to take tasks of progressive difficulty, take
+          reviews on too. It's much easier for the core team to review your trial
+          if you have picked varied tasks of different complexity and skillset. We’re looking for a
+          cross-section of tasks across all our required work areas: full stack dev, devops, and ops.
+        </li>
+        <li>
+          "Nice": This point is in quotes because everyone obviously likes being around
+          other nice people, so you'd assume this was obvious. But of course everyone believes,
+          "Yeah, I'm nice!", but it goes a long way to being deliberately nice with your
+          colleagues, and not just believing you are; they will simply enjoy working with you more.
+        </li>
+      </ol>
     </html>
   </vertical>
 
@@ -446,7 +492,7 @@
           </li>
           <li>
             Watch over sandboxes (ie keep an eye on the instance manager
-            on a daily basis to ensure they build correctly, and debugging if needed)
+            on a regular basis, few times a day, to ensure they build correctly, and debugging if needed)
           </li>
           <li>
             Providing support on the mailing-list, monitoring for questions
@@ -471,41 +517,6 @@
           on each ticket to ask how the assignee is doing and if they need help,
           and/or asking them to update the status of the ticket if it is not clear).
         </li>
-      </ul>
-    </html>
-  </vertical>
-
-  <vertical display_name="Admin" url_name="whats_expected_admin">
-    <html url_name="whats_expected_admin_1">
-      <p>
-        My duties as an <strong>admin</strong> are:
-      </p>
-      <ul>
-        <ul>
-          <li>
-            Support role for Xavier (invoicing, payroll, client communication)
-          </li>
-          <li>
-            Support role for team (assisting with questions, documentation, accounts issues)
-          </li>
-          <li>
-            Managing and monitoring Betatester applications
-            and addressing user issues in Ocim
-          </li>
-          <li>
-            Multiple email account monitoring and forwarding
-          </li>
-          <li>
-            Support role for non-dev organization and communication
-          </li>
-          <li>
-            Maintain basic knowledge of edX and OpenCraft services and platforms
-          </li>
-          <li>
-            Support role for business development (researching new client leads,
-            connecting to OpenCraft, and following up where needed)
-          </li>
-        </ul>
       </ul>
     </html>
   </vertical>
@@ -562,6 +573,10 @@
             </li>
           </ul>
         </li>
+        <li>
+          I will manage and monitor Betatester applications
+          and addressing user issues in Ocim
+        </li>
       </ol>
     </html>
   </vertical>
@@ -573,18 +588,22 @@
       </p>
       <ol>
         <li>
+          I will make sure I am the right person to take on a specific discovery, if I feel I am not
+          I will exchange work with other people from the sprint, to get someone else
+          to do it, while I help them with their tasks. It is very important to be able to estimate a
+          task well, we should make a conscious effort to assign the task to the person who can best
+          handle it, if possible (if the person is available and willing to do the work).
+        </li>
+        <li>
           I will keep at least 10 hours of time to do discovery work
           on any small leads/client requests that come up during the week.
           I may still plan some tasks to pull into the sprint if no fires pop up.
+          Before pulling tasks in the sprint, use these hours to help others finishing
+          their sprint commitments.
         </li>
         <li>
           If I do some discovery tasks, I will ping the sprint firefighters
           to review the result.
-        </li>
-        <li>
-          If I feel that I am not the right person to take on a specific discovery,
-          I will exchange work with other people from the sprint, to get someone else
-          to do it, while I help them with their tasks.
         </li>
         <li>
           As always, if I do the discovery, I understand that I would be expected
