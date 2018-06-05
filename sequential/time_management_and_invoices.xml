@@ -1,7 +1,310 @@
 <sequential display_name="Time management and invoices">
-  <vertical url_name="time_management_and_invoices_introduction"/>
-  <vertical url_name="time_management_and_invoices_time_management"/>
-  <vertical url_name="time_management_and_invoices_tips_from_the_team_members"/>
-  <vertical url_name="time_management_and_invoices_contact_sheet"/>
-  <vertical url_name="time_management_and_invoices_invoices"/>
+  <vertical display_name="Introduction" url_name="time_management_and_invoices_introduction">
+    <html url_name="time_management_and_invoices_introduction_1">
+      <p>
+        In this part we'll cover time management and how invocing works for OpenCraft. Let's start!
+      </p>
+    </html>
+  </vertical>
+  <vertical display_name="Time Management" url_name="time_management_and_invoices_time_management">
+    <html url_name="time_management_and_invoices_time_management_1">
+      <p>
+        The way we track time has an effect on our productivity. Each person
+        tends to find their own comfort zone here, depending on their setup, their work
+        habits, etc.. This section should shed some light on different methods of time
+        management and time tracking used by some on the team, to help you in working
+        out what may be optimal for yourself.
+        <br />
+        <br />
+        To help you in dealing with the potential mysteries revolving
+        around tracking and managing their time in the several different types of tasks
+        and activities here at OpenCraft, we've compiled a QA section
+        with the most common queries from past newcomers.
+      </p>
+      <p>
+        Q: Do I need to use the time tracker app on JIRA?
+      </p>
+      <blockquote>
+        <p>
+          A: No! As you'll read from our team's personal tips (in the next unit),
+          there are only a few people on the team that actually use JIRA's plugin
+          for time tracking. However, because it's directly in JIRA, it won't necessitate
+          the extra step of transfering work logs, so give it a try in case it ends up
+          being perfectly fine for you!
+        </p>
+      </blockquote>
+      <p>
+        Q: How precise does tracked time need to be?
+        (Is a quarter hour sufficient if not using the time tracker?)
+      </p>
+      <blockquote>
+        <p>
+          For tracking time in sprint planning, if you look at specific epics
+          you should assign this time to the epics themselves (splitting
+          roughly over a given period of time, it doesn't need to be 100% exact).
+          Or on the tickets themselves if you read them. For things like the meeting itself,
+          or things in sprint planning that aren't related to any epic, there is OC-515,
+          but it should be kept to a minimum, since we can't differentiate which projects
+          the time logged on that epic was spent on, which makes it difficult
+          to properly invoice clients afterwards.
+        </p>
+        <p>
+          It's good in general to be precise about time logging - whenever possible,
+          use the exact measurement from the tracker - it's not uncommon
+          to be surprised by the amount of time we spend on specific tasks
+          once we start tracking it. However, to keep the amount of time spent logging
+          time sane, when you work for short amount of times switching between
+          a set of tasks or epics, it can become difficult to use a timer efficiently
+          - you can then divide the time roughly - you look at how much time
+          you've spent in total (say, 1h), and if you spent roughly
+          the same amount of time on each of say 6 tasks/epics,
+          you can log 10min on each. It's not too bad if it's isn't completely
+          exact on very small amounts - it will average out eventually.
+        </p>
+      </blockquote>
+      <p>
+        Q: Where do I track time for sprint planning or really small tasks?
+      </p>
+      <blockquote>
+        <p>
+          On the tasks or epics for which you spent time planning/grooming.
+          For example, for the Enterprise team, if you spend time in the grooming meeting,
+          track that time on the Enterprise epic.
+        </p>
+      </blockquote>
+      <p>
+        Q: How often (and when) should we invoice OpenCraft, and when can I expect payment?
+        What details should be included in the invoice?
+      </p>
+      <p>
+      </p>
+      <blockquote>
+        <p>
+          You'll learn about it soon in details in another unit of this section.
+        </p>
+      </blockquote>
+    </html>
+  </vertical>
+  <vertical display_name="Tips from the team members" url_name="time_management_and_invoices_tips_from_the_team_members">
+    <html url_name="time_management_and_invoices_tips_from_the_team_members_1">
+      <p>
+        Members of the team were kind enough to share their personal techniques/habits
+        for tracking time - almost everyone who shared seemed to have something unique!
+      </p>
+    </html>
+    <html url_name="time_management_and_invoices_tips_from_the_team_members_2">
+      <h3>Brandon</h3>
+      <blockquote>
+        <p>
+          I use
+          <a href="https://github.com/projecthamster/hamster" target="_blank">Project Hamster</a>,
+          which I find has a very quick, easy, reliable interface. It's a GTK
+          project, but I believe it's tightly integrated with other components in the
+          freedesktop/GNOME ecosystem, so it would probably be difficult if not impossible
+          to make it work outside of Linux or FreeBSD.
+        </p>
+        <p>
+          Either way, I imagine there are plenty of tools that do just as good
+          a job for Windows or macOS.
+        </p>
+        <p>
+          My usual pattern is this:
+        </p>
+        <ul>
+          <li>
+            For keeping track of larger tasks during the day (things I think
+            will take &gt; 10-15 minutes), I track these directly with Hamster.
+            I actually copy and paste the full name of the OpenCraft ticket
+            into Hamster when I start logging; this makes logging the time on JIRA
+            much easier later on.
+          </li>
+          <li>
+            I try to remain at Inbox Zero as much as possible, so I respond
+            to most small things immediately, prioritize my email as a task list
+            for stuff I choose not to respond to immediately (usually when
+            they're bigger notifications), and clear out the bigger notifications in
+            between tasks (for this, it helps to use
+            <a href="https://inbox.google.com/" target="_blank">Google Inbox</a>
+            instead of Gmail, although there are some downsides to it
+            and the OpenCraft org itself doesn't have Inbox enabled).
+          </li>
+          <li>
+            For the smaller email notifications (usually &lt; 10 minutes),
+            I log my time directly on the corresponding JIRA tickets right away
+            using the 'W' hotkey and tabbing through the fields.
+            It takes no time at all to enter worklogs this way, and there's no point
+            in tossing this stuff into Hamster since they're so small.
+          </li>
+          <li>
+            At the end of my day, I go to the
+            <a href="https://tasks.opencraft.com/secure/TempoUserView.jspa" target="_blank">Worklog Calendar</a>
+            view In JIRA and record all the time I have recorded in OpenCraft.
+          </li>
+        </ul>
+      </blockquote>
+    </html>
+    <html url_name="time_management_and_invoices_tips_from_the_team_members_3">
+      <h3>Braden</h3>
+      <blockquote>
+        <p>
+          I use
+          <a href="https://toggl.com/" target="_blank">toggl</a>
+          because it's really simple and flexible to use (compared to Tempo),
+          and then at the end of each day I use the Worklog Calendar view in Tempo
+          to copy my time entries over into Tempo.
+        </p>
+        <p>
+          I generally start a timer on toggl, then work for a bit on a bunch of related work,
+          then go back to toggl and enter a quick note about which task/epic I worked on
+          and what I did. What I like about toggl is that it's easy
+          to retroactively split up time entries if it turned out to be more than one project.
+        </p>
+        <p>
+          I get a lot of emails from many different projects that we work on,
+          so I have filters that automatically label (most) emails by client,
+          and then I usually go through my emails client by client.
+          So I'll read all the McKinsey emails, then record a time entry for that,
+          then read all the Management emails, then record a time entry for that, etc.
+          That makes it easier to track my time per epic, and since I do it per-client
+          and not per-epic, the labelling itself is not too much admin overhead.
+        </p>
+        <p>
+          <a href="https://github.com/open-craft/documentation/blob/master/images/braden-time-tracking.png" target="_blank"><img src="https://github.com/open-craft/documentation/raw/master/images/braden-time-tracking.png" alt="Screenshot of Braden's gmail with automatically-added tags" /></a>
+        </p>
+      </blockquote>
+    </html>
+    <html url_name="time_management_and_invoices_tips_from_the_team_members_4">
+      <h3>Sven</h3>
+      <blockquote>
+        <p>
+          I do more or less what Brandon does, except that I use
+          <a href="http://www.k5n.us/gtimer.php?topic=Screenshots" target="_blank">GTimer</a>
+          instead of Hamster. It's quite simple, but rather idiosyncratic,
+          and the only reason I'm using it is because the Xubuntu Hamster package
+          was broken at the time I looked for a time tracking tool
+          and I could not be bothered to compile it myself.
+        </p>
+        <p>
+          For small tasks, I just start a stopwatch on my phone and enter the time
+          directly into Jira once I'm done. This may seem somewhat crude,
+          but it's still a lot better than the Tempo time tracker on Jira.
+        </p>
+      </blockquote>
+    </html>
+    <html url_name="time_management_and_invoices_tips_from_the_team_members_5">
+      <h3>Uman</h3>
+      <blockquote>
+        <p>
+          I've tried to use an external application like others once,
+          and I quickly felt that the process of copying over work logs
+          all the time wasn't for me.
+        </p>
+        <p>
+          So instead, for large tasks, I often take a look at the current time
+          through the phone or clock, and come back to it later
+          when I feel like my task is done, and track the difference. For smaller tasks,
+          I usually have a good idea of how long it'll take (i.e. 3-5 minutes),
+          and don't bother with the overhead of a timer in these cases.
+        </p>
+        <p>
+          A funny reminder for these timers: I've awkwardly forgotten in the past
+          to log my time for the task while running the timer, and when I come back
+          the next day there's 24+ hours of time ticking along. Don't forget to track it!
+        </p>
+        <p>
+          As for general time management, I don't think this technique will be useful
+          for most people, but for me: I essentially make a mental or written down plan
+          of how I'll execute my tasks for the week at the beginning.
+          I then tackle each task at appropriate times depending on how much I believe
+          each should take based off of my planning. This used to be impossible
+          without having context with the task's content, but over time
+          it's becoming pretty clear to me the path these things generally take.
+        </p>
+      </blockquote>
+    </html>
+    <html>
+      <h3>Matjaz</h3>
+      <blockquote>
+        <p>
+          I tried using time trackers in the past, but it didn't work for me.
+          I found it was too much overhead to switch the tracker every 5 minutes
+          when answering another mail. I would also often forget to start, stop,
+          or switch to a different customer when switching projects, so now I just do it
+          manually. The fact that I start working at the same time every day makes it
+          easier (don't have to remember to check the clock every time when I start:)).
+        </p>
+        <p>
+          In order to keep things manageable, I log time in 0.5 hour chunks.
+          I don't keep track of each individual 5 minute email -
+          if I'm answering emails for 30 minutes, I will log all 30 minutes
+          to the client for which I spent most of that 30 minutes.
+          In theory the logged time should even up over time.
+        </p>
+      </blockquote>
+    </html>
+  </vertical>
+  <vertical display_name="Contact sheet" url_name="time_management_and_invoices_contact_sheet">
+    <html url_name="time_management_and_invoices_contact_sheet_1">
+    <p>
+      Please fill the
+      <a href="https://docs.google.com/spreadsheets/d/107dR9H1vWjLpJlXPuBaFJIFaEPEmaSh50xLow_aEGVw/edit" target="_blank">contact sheet</a>.
+    </p>
+    <p>
+      It includes fields like <em>availability</em>, which allows
+      to get an idea of the best time to talk to that person.
+    </p>
+    <p>
+      It's not precise work hours btw - just when you are better able
+      to monitor for pings for example.
+    </p>
+    </html>
+  </vertical>
+  <vertical display_name="Invoices" url_name="time_management_and_invoices_invoices">
+    <html url_name="time_management_and_invoices_invoices_1">
+      <p>
+        Invoices are generated automatically by Crafty (our bot). Crafty will be generating the invoice based on the hours you have logged on JIRA.
+      </p>
+    </html>
+    <html url_name="time_management_and_invoices_invoices_2">
+      <h3>
+        <strong>When is the invoice generated?</strong>
+      </h3>
+      <blockquote>
+        <p>
+          Crafty sends a reminder on the last day of the month, to remind you to log all your time on JIRA.
+          Then it generates the invoice on the 3rd day of the month, and sends you an email with a link to approve it.
+        </p>
+      </blockquote>
+    </html>
+    <html url_name="time_management_and_invoices_invoices_3">
+      <h3>
+        <strong>When can I expect payment?</strong>
+      </h3>
+      <blockquote>
+        <p>
+          The transfer should arrive before the 15th of the month - often earlier,
+          but do note that we have had bank delays at times.
+          Any issues should be communicated with <code>billing@opencraft.com</code>.
+        </p>
+      </blockquote>
+    </html>
+    <html url_name="time_management_and_invoices_invoices_4">
+      <h3>
+        <strong>What details are needed by OpenCraft to make the payment?</strong>
+      </h3>
+      <blockquote>
+        <p>Make sure you send this information to Xavier by <a href="mailto:xavier@opencraft.com">email</a>:
+          <ol>
+            <li>Company Name</li>
+            <li>VAT</li>
+            <li>IBAN</li>
+            <li>SWIFT</li>
+            <li>Account Number</li>
+            <li>Any other applicable details</li>
+          </ol>
+          The entity holding the account and its address must match the address for you in your contract.
+        </p>
+      </blockquote>
+    </html>
+  </vertical>
 </sequential>
