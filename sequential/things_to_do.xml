@@ -1,0 +1,104 @@
+<sequential display_name="Things to do checklist">
+  <vertical url_name="things_to_do_things_to_do" display_name="Things to do">
+    <problem url_name="thigns_to_do_things_to_do_1_checklist" display_name="Checklist">
+      <choiceresponse>
+        <p>
+          This is a list of the things that you had to do as part of this course. You can use it as reminder of them.
+          To make sure the changes are not lost, don't forget to click on submit once you make a change.
+        </p>
+        <checkboxgroup>
+          <choice correct="true">
+            Read and bookmark
+            <a href="https://github.com/open-craft/documentation/blob/master/Glossary.md">
+              OpenCraft's glossary
+            </a>
+          </choice>
+          <choice correct="true">
+            Read and bookmark
+            <a href="http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/glossary.html">
+              EdX's glossary
+            </a>
+          </choice>
+          <choice correct="true">
+            Read about 
+            <a href="https://github.com/open-craft/documentation/blob/master/task_workflows.md">
+              task workflows
+            </a>
+          </choice>
+          <choice correct="true">
+            Read about coding standards:
+            <a href="https://github.com/open-craft/documentation/blob/master/pdfs/CodeReviewGuidelinesandGotchas-2017-25-07.pdf">
+              Code Review Guidelines and Gotchas
+            </a>, 
+            <a href="http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/style_guides/python-guidelines.html">
+              edX Python Coding Standards
+            </a>
+          </choice>
+          <choice correct="true">
+            Read about the 
+            <a href="https://github.com/open-craft/documentation/blob/master/tools_we_use.md">
+              tools we use
+            </a>
+          </choice>
+          <choice correct="true">
+            Read the 
+            <a href="https://github.com/open-craft/opencraft/">
+              introduction to OCIM
+            </a>
+          </choice>
+          <choice correct="true">
+            Say Hi on Mattermost
+          </choice>
+          <choice correct="true">
+            Fill the
+            <a href="https://docs.google.com/spreadsheets/d/107dR9H1vWjLpJlXPuBaFJIFaEPEmaSh50xLow_aEGVw/edit">
+              contact sheet
+            </a>
+          </choice>
+          <choice correct="true">
+            Send information about your bank account to Xavier before the first invoice
+          </choice>
+          <choice correct="true">
+            Make sure that your laptop's home folder/partition (or your whole disk) is encrypted
+          </choice>
+          <choice correct="true">
+            Read
+            <a href="https://github.com/open-craft/documentation/blob/master/Pull_request_process.md">
+              Pull request process docs
+            </a>
+          </choice>
+          <choice correct="true">
+            Read
+            <a href="https://github.com/open-craft/documentation/blob/master/sandboxes_howto.md">
+              Sandboxes how to
+            </a>
+          </choice>
+          <choice correct="true">
+            Configure your github account (show real name, publicise your membership to OpenCraft,
+            Activate 2 factor authentication, confirm ssh keys are up to date, check oauth applications,
+            check personal access tokens)
+
+          </choice>
+          <choice correct="true">
+            Activate 2 factor authentication on your email on this
+            <a href="https://myaccount.google.com/signinoptions/two-step-verification/enroll-welcome">
+              site
+            </a>
+          </choice>
+          <choice correct="true">
+            Setup email footer
+          </choice>
+          <choice correct="true">
+            <a href="https://id.atlassian.com/signup">
+              Create an attlassian account
+            </a>
+          </choice>
+          <choice correct="true">
+            Setup a custom avatar in our JIRA
+          </choice>
+        </checkboxgroup>
+      </choiceresponse>
+    </problem>
+  </vertical>
+</sequential>
+
