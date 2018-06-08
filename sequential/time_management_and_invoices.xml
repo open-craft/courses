@@ -6,7 +6,7 @@
       </p>
     </html>
   </vertical>
-  <vertical display_name="Time Management" url_name="time_management_and_invoices_time_management">
+  <vertical display_name="Time management" url_name="time_management_and_invoices_time_management">
     <html url_name="time_management_and_invoices_time_management_1">
       <p>
         The way we track time has an effect on our productivity. Each person
@@ -80,7 +80,10 @@
       </p>
       <blockquote>
         <p>
-          You'll learn about it soon in details in another unit of this section.
+          You'll learn about it soon in details in
+          <a href="/jump_to_id/time_management_and_invoices_invoices">
+            another unit
+          </a> of this section.
         </p>
       </blockquote>
     </html>
@@ -222,7 +225,7 @@
         </p>
       </blockquote>
     </html>
-    <html>
+    <html url_name="time_management_and_invoices_tips_from_the_team_members_6">
       <h3>Matjaz</h3>
       <blockquote>
         <p>
@@ -241,6 +244,14 @@
           In theory the logged time should even up over time.
         </p>
       </blockquote>
+    </html>
+    <html url_name="time_management_and_invoices_tips_from_the_team_members_7">
+      <h3>Tips and tricks for working remotely</h3>
+      <p>
+        There is also a
+        <a href="https://forum.opencraft.com/t/working-remotely-tips-and-tricks/112/">forum post</a>
+        where everyone posted tips and tricks. You are welcome to post your own tricks too!
+      </p>
     </html>
   </vertical>
   <vertical display_name="Contact sheet" url_name="time_management_and_invoices_contact_sheet">
