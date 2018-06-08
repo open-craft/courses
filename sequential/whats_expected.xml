@@ -1,11 +1,697 @@
 <sequential display_name="What's expected">
-  <vertical url_name="whats_expected_introduction"/>
-  <vertical url_name="whats_expected_opencraft_team_member"/>
-  <vertical url_name="whats_expected_code_reviewer"/>
-  <vertical url_name="whats_expected_someone_new_to_the_team"/>
-  <vertical url_name="whats_expected_sprint_firefighter"/>
-  <vertical url_name="whats_expected_admin"/>
-  <vertical url_name="whats_expected_business_developer"/>
-  <vertical url_name="whats_expected_weeks_discovery_duty_asignee"/>
-  <vertical url_name="whats_expected_epic_owner"/>
+
+  <vertical display_name="Introduction" url_name="whats_expected_introduction">
+    <html url_name="whats_expected_introduction_1">
+      <p>
+        We have prepared the descriptions of different roles in OpenCraft
+        in the form of <strong><em>What's expected of me</em></strong> docs.
+        If some of them (like sprint firefighter or discovery duty) don't apply to you yet,
+        take note at least of how you as a newcomer can benefit from what they do.
+        Let's read them!
+      </p>
+    </html>
+  </vertical>
+
+  <vertical display_name="OpenCraft team member" url_name="whats_expected_opencraft_team_member">
+    <html url_name="whats_expected_opencraft_team_member_1">
+      <p>
+        First, let's read general expectations for the team member of OpenCraft:
+      </p>
+    </html>
+
+    <html url_name="whats_expected_opencraft_team_member_2">
+      <h4>General</h4>
+      <ol>
+        <li>
+          I can work from wherever I want, provided I have access
+          to a reliable high-bandwidth internet connection good enough for video calls.
+        </li>
+        <li>
+          I can set my own work schedule, and work when I want during the week,
+          as long as <strong>I remain available to answer to others</strong>
+          (please see: the <strong>Communication</strong> section below)
+        </li>
+        <li>
+          (In general) <strong>I am expected <em>not</em> to work weekends</strong>
+          (unless I'm behind on my commitments), which should remain an exception, not the rule!
+          If you find yourself working on week ends more than once per month, that likely reflects
+          an issue with your time management that needs fixing.
+        </li>
+        <li>
+          I will work at least the amount of hours per week that is
+          specified in my contract (e.g. 40 hours/week),
+          averaged over each month, excluding scheduled holiday time.
+        </li>
+        <li>
+          I will ensure that clients and people on the team that I'll be working with
+          (e.g. code reviews) know my availability.
+          (e.g. If I'm taking Friday off, I'll make sure people who need me
+          to do code review know that).
+        </li>
+        <li>
+          When taking time off follow the procedure described on the
+          <a href="/jump_to_id/opencraft_vacation">vacation's section</a>.
+        </li>
+        <li>
+          If I'm unexpectedly sick or unavailable due to an emergency,
+          I'll make every effort to notify the team and ask the sprint firefighters
+          to take over my duties.
+        </li>
+        <li>
+          I will provide my own hardware (laptop).
+        </li>
+        <li>
+          I will keep my computer(s) secure and up to date as described in the
+          <a href="https://github.com/open-craft/documentation/blob/master/Security_policy.md">Security Policy</a>.
+        </li>
+        <li>
+          I will record all hours that I spend on a task using the Tempo timesheets
+          tool in JIRA (including things like setting up devstacks and time spent
+          learning, which we all need to do and is an important part of the task,
+          especially at the beginning, or when joining a project).
+        </li>
+        <li>
+          If I use another tool for tracking my time,
+          I will update the JIRA Tempo timesheets within 24 hours (excluding weekend days).
+        </li>
+      </ol>
+    </html>
+
+    <html url_name="whats_expected_opencraft_team_member_3">
+      <h4>
+        Communication
+      </h4>
+      <ol>
+        <li>
+          <strong>If any client email is addressed to me, I will respond to it within 24 hours(excluding weekend days), or ensure that someone else on the team does.</strong>
+          <ul>
+            <li>
+              I will CC or forward to
+              <a href="mailto:help@opencraft.com">help@opencraft.com</a>
+              all client emails and replies, so that others can take over
+              the thread with that client if needed, or refer to it for context.
+            </li>
+            <li>
+              If I can't answer immediately, I will at least send a quick reply
+              to let them know we're working on a response.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>I will reply to pings/emails from other OpenCraft team members within 24 hours</strong>
+          (again excluding weekend days and scheduled time off).
+          <ul>
+            <li>
+              But this should be a "worst case" scenario - completing the work on time
+              is still the primary goal, so when someone is blocked and pings me for help,
+              I will try to do as much as I can to unblock them quickly,
+              rather than starting a 24h ping-pong cycle that takes up all the time
+              in the sprint without accomplishing any work.
+            </li>
+          </ul>
+        </li>
+        <li>
+          I will be professional and polite when communicating with clients.
+        </li>
+        <li>
+          I will prefer asynchronous over synchronous processes
+          (keep meetings to a minimum). A chat conversation is a form of a meeting.
+          <ul>
+            <li>
+              Generally, discussions should happen first asynchronously on the JIRA tickets;
+              if there is really something that can't be efficiently sorted out asynchronously,
+              have a chat or schedule a meeting. JIRA might have long response cycles (around
+              1 day turnaround). If this time isn't enough to unblock someone and
+              finish their sprint commitments, use Mattermost, even though
+              it's more disruptive to people's workflow.
+            </li>
+            <li>
+              If you do have a synchronous conversation with someone about a particular task,
+              post a summary of the result/decision from that conversation on the JIRA ticket
+              for easier future reference.
+            </li>
+            <li>
+              When scheduling meetings, give them a precise agenda. For people using Calendly,
+              like Braden and Xavier, book meetings there, as it allows us to avoid
+              the scheduling overhead.
+            </li>
+            <li>
+              Try, as much as possible, to use a similar approach with clients - don't
+              let them invade your days with meetings. Calendly is good for this too,
+              as it allows to define time slots where you'll have the meetings,
+              to minimize the disruption they cause to your day and productivity.
+              If you want a calendly account, let Xavier know and he will set
+              you up with the OpenCraft account.
+            </li>
+          </ul>
+        </li>
+        <li>
+          I will post on public channels on Mattermost rather than private 1-to-1 channels
+          whenever possible, even if the message is just for one person.
+          This allows us to know what others are working on, and helps to replace
+          the overheard discussions in physical offices - it can also be an occasion
+          for someone else with knowledge about your issue to get the context,
+          and to intervene if it is useful to the conversation.
+        </li>
+        <li>
+          I will make sure I communicate with my reviewer(s) on tasks about availability
+          and timezone overlap if I didn't have knowledge about it before. I will use the
+          <a href="https://docs.google.com/spreadsheets/d/107dR9H1vWjLpJlXPuBaFJIFaEPEmaSh50xLow_aEGVw/edit" target="_blank">contact sheet</a>
+          where necessary.
+        </li>
+        <li>
+          I will join the weekly team meeting on Mondays unless I have scheduled that day off in advance.
+        </li>
+      </ol>
+    </html>
+
+    <html url_name="whats_expected_opencraft_team_member_4">
+      <h4>
+        Sprint tasks
+      </h4>
+      <ol>
+        <li>
+          I will follow the process and expectations outlined in the
+          <em>Pull request process</em>
+          section (you'll get to this section soon).
+        </li>
+        <li>
+          I will never add my code (even DevOps code!) to a production branch directly
+          - I will always create a Pull Request.
+        </li>
+        <li>
+          I will always ensure my Pull Requests are reviewed by another OpenCraft team member <strong>before</strong> merging,
+          except if I am a <em>core team member</em> and I'm merging <em>trivial changes</em>.
+          In this exceptional case, I may merge the <em>trivial changes</em> before receiving a review,
+          but I will then ensure all of those <em>trivial changes</em>
+          are reviewed and acknowledged post-merge or post-deployment
+          by another OpenCraft team member. Trivial changes include:
+          <ul>
+            <li>
+                Small Open edX environment tweaks (
+                <a href="https://user-images.githubusercontent.com/514483/34581710-c167d10c-f191-11e7-9a66-7fa8c59def82.png">example</a>)
+            </li>
+            <li>
+              Minor/bugfix package version bumps (
+              <a href="https://github.com/open-craft/ansible-rabbitmq/pull/4/files" target="_blank">example</a>)
+            </li>
+          </ul>
+        </li>
+        <li>
+          I will only commit to work each sprint that I believe I can comfortably complete
+          within the allotted sprint time (two weeks).
+          Here, "complete" means "get merged or to external review."
+        </li>
+        <li>
+          I will get all of my tasks ready for internal review (by someone else
+          on the OpenCraft team) by the
+          <strong>end of Wednesday in the second week of the sprint</strong>
+          at the latest. This will ensure that there is time for the review to take place,
+          and for me to address the review comments
+          and get the internal reviewer's approval in time.  If a ticket potentially requires multiple
+          review cycles, get it into review as early as possible.  Schedule reviews with your reviewer
+          to make sure they have time when you get your work ready for review.
+        </li>
+        <li>
+          I will spend time to plan each task at the beginning of each sprint, including scheduling the
+          review with the reviewer. Make sure you have an answer for:
+            <ol>
+              <li>When do each step of the task need to be completed?</li>
+              <li>Which days will you work on which task?</li>
+              <li>When do individual parts need to be completed to be on time?</li>
+            </ol>
+          It's also important to keep some margin on the sprint, in case something doesn't go as expected.
+        </li>
+        <li>
+          I will get my tasks to at least
+          <strong>External Review</strong>
+          (or "Merged" if no external review is required) by
+          <strong>one hour before the sprint planning meeting for the next sprint</strong>.
+          As this is also dependent on the internal reviewer,
+          I'll make sure she/he will be available around the time I finish.
+        </li>
+        <li>
+          If it is looking like I will have trouble meeting one of these deadlines,
+          I will inform the sprint firefighters (and epic owner) as early as possible,
+          so they can get me additional help, start planning for contingencies,
+          and/or warn the client.
+        </li>
+        <li>
+          If necessary, I will work overtime to complete my tasks before the end of the sprint.
+        </li>
+        <li>
+          I will prioritise stories that spilled over from the previous sprint.
+        </li>
+        <li>
+          I will "work from the right", prioritizing responding to external reviews
+          as the highest priority, then doing reviews / responding to questions
+          from others on the team, and finally working on implementing my own "In Progress" tasks.
+        </li>
+        <li>
+          I will be helpful to team members, responding to questions,
+          helping with debugging, providing advice, or even taking over tasks
+          if I have time and they are overloaded. This has precedence over starting
+          to work on new tasks, when finishing a sprint early.
+        </li>
+        <li>
+          Once a sprint, I will review all of my tasks that are in "Long External Review/Blocked"
+          and if needed, I will ping the external reviewer/blocker or pull the task into
+          an upcoming sprint.
+        </li>
+      </ol>
+    </html>
+  </vertical>
+
+  <vertical display_name="Code reviewer" url_name="whats_expected_code_reviewer">
+    <html url_name="whats_expected_code_reviewer_1">
+      <p>
+        As a <strong>code reviewer</strong>:
+      </p>
+      <ol>
+        <li>
+          I will give prompt, thoughtful, thorough, constructive code reviews.
+        </li>
+        <li>
+          (When reviewing OpenCraft work): I will expect that the PR author
+          has done everything outlined in the
+          <em>PR expectations</em>
+          part of the
+          <em>Pull request process</em>
+          section (you'll get to it soon) - if not, I will ask them
+          to fix that before I start the review.
+        </li>
+        <li>
+          I will always read through the code diff, considering things like:
+          <ul>
+            <li>
+              Is the code easily understandable by humans?
+            </li>
+            <li>
+              Is the code of high quality?
+            </li>
+            <li>
+              Are all relevant coding standards followed?
+            </li>
+            <li>
+              Are all UX / a11y / i18n considerations addressed?
+            </li>
+            <li>
+              Is this introducing tech debt?
+            </li>
+            <li>
+              Is the new code well covered by tests?
+            </li>
+          </ul>
+        </li>
+        <li>
+          I will always test the code manually,
+          either locally or on a sandbox, unless there is no reasonable way to do so.
+        </li>
+        <li>
+          I will always check if any updates to the software's documentation are required,
+          and either ask the author to update the docs,
+          or ensure the relevant documentation team is pinged.
+        </li>
+        <li>
+          If there is any part of the code that I am not confident in reviewing,
+          I will indicate that in my comments.
+        </li>
+        <li>
+          If there is any part of the code or PR that I particularly like,
+          I will say so - we want to reinforce good practice as well as flagging issues.
+        </li>
+        <li>
+          I will
+          <a href="https://github.com/settings/replies" target="_blank">set up the following template as a "Saved Reply" in GitHub</a>
+          and use it for the "stamp of approval" on all PRs I review:
+        </li>
+      </ol>
+      <pre>
+      :+1:
+
+      - [ ] I tested this: (describe what you tested)
+      - [ ] I read through the code
+      - [ ] I checked for accessibility issues
+      - [ ] Includes documentation
+      </pre>
+      <p>
+        Here is a screenshot showing how to conveniently access this template
+        when completing a code review using the dropdown button in the top right
+        of the review panel (on the "Conversation" tab only):
+      </p>
+      <p>
+        <a href="https://github.com/open-craft/documentation/blob/master/images/review-template.png" target="_blank"><img src="https://github.com/open-craft/documentation/raw/master/images/review-template.png" alt="Screenshot of code review template in GitHub" /></a>
+      </p>
+      <ol start="9">
+        <li>
+          If I'm the assigned reviewer for someone who is new to OpenCraft,
+          I will reserve extra time to provide additional mentoring and support,
+          and I will be especially responsive to questions.
+        </li>
+      </ol>
+      <p>
+        <em>If the assignee is clearly behind the schedule and doesn't respond to pings
+          on the ticket: if there's no response at all in 48 hours,
+          the code reviewer should ask the firefighter to take the task over
+          in order to reduce the risk of spillover.</em>
+      </p>
+    </html>
+  </vertical>
+
+  <vertical display_name="Someone new to the team" url_name="whats_expected_someone_new_to_the_team">
+    <html url_name="whats_expected_someone_new_to_the_team_1">
+      <p>
+        If I'm <strong>new to the team</strong>, I will:
+      </p>
+      <ol>
+        <li>
+          Not commit to more than 3 points of tasks during my first week,
+          or 5 points my second week (so no more than a total of 8 points for
+          the first sprint).  It's really easy to over-commit at first,
+          so keep your commitments manageable. You can always take on more work
+          later in the sprint if you finish early.
+        </li>
+        <li>
+          Provide lots of updates to my assigned reviewer/mentor for each task,
+          so they can provide timely help.
+        </li>
+      </ol>
+
+      <p>
+        Additionally, here are some of the things the core team looks for
+        when it comes time to evaluate newcomers near the end of their trial period,
+        and some general advice about each of them:
+      </p>
+      <ol>
+        <li>
+          Delivering On-Time: Avoiding spillover and delivering on schedule is really
+          important in an environment where we make direct promises to clients about
+          deliverables. Our reputation as an organization is on the line when we cannot
+          deliver as we promised, so it matters tremendously to us to see a newcomer
+          making deadlines consistently. It's required that you communicate explicitly
+          when you feel there is going to be spillover, as soon as you can detect it, and
+          try to find someone else who can complete or help you complete them. It’s totally
+          ok to do this, and even welcomed by people who have time left in their sprint.
+          We are a team, and we work together to avoid spillover.
+        </li>
+        <li>
+          Communicative: As stressed above, as an international remote team, there is
+          little progress we can make if we don't constantly communicate (with respect
+          to not being interruptive if it isn't necessarily urgent). We promise you
+          that we didn't recruit any mind readers! We won't magically figure anything
+          out unless it's been talked about, through any of our multiple modes of communciation.
+          You should be communicating with your reviewers daily or every 2 days minimum on what
+          your progress on their task is (by commenting on the JIRA tickets). Even if they have
+          no questions, just stating status is important and can give reviewers/mentors somewhere
+          to jump in and help.
+        </li>
+        <li>
+          Show your skills: It's important to take tasks of progressive difficulty, take
+          reviews on too. It's much easier for the core team to review your trial
+          if you have picked varied tasks of different complexity and skillset. We’re looking for a
+          cross-section of tasks across all our required work areas: full stack dev, devops, and ops.
+        </li>
+        <li>
+          "Nice": This point is in quotes because everyone obviously likes being around
+          other nice people, so you'd assume this was obvious. But of course everyone believes,
+          "Yeah, I'm nice!", but it goes a long way to being deliberately nice with your
+          colleagues, and not just believing you are; they will simply enjoy working with you more.
+        </li>
+      </ol>
+    </html>
+  </vertical>
+
+  <vertical display_name="Sprint firefighter" url_name="whats_expected_sprint_firefighter">
+    <html url_name="whats_expected_sprint_firefighter_1">
+      <p>
+        <span color="#24292e">
+          As a
+          <strong>sprint firefighter</strong>:
+        </span>
+      </p>
+      <ol>
+        <li>
+          I will keep at least 10 hours of time for sprint firefighter duties as
+          described below, and will proactively pursue those duties.
+          I may still plan some tasks to pull into the sprint if no fires pop up.
+        </li>
+        <li>
+          I will not record any time on the
+          <a href="https://tasks.opencraft.com/browse/OC-1199" target="_blank">OC-1199</a>
+          task directly (always use a dedicated client story/bug/epic ticket).
+        </li>
+        <li>
+          I will be subscribed to the
+          <a href="http://mail.plebia.org/cgi-bin/mailman/listinfo/help" target="_blank">help</a>
+          and
+          <a href="http://mail.plebia.org/cgi-bin/mailman/listinfo/urgent" target="_blank">urgent</a>
+          mailing lists (be sure to filter them to a separate folder
+          to look at them only when you need to - but also make sure
+          that if any such emails also explicitly include you in the To/CC,
+          then they will arrive in your inbox).
+        </li>
+        <li>
+          I will work on the following, listed by decreasing priority:
+        </li>
+        <ol>
+          <li>
+            Handle emergencies from other team members
+            (reported by team members directly to me or to the other sprint
+            firefighter, with Braden arbitrating priorities)
+          </li>
+          <li>
+            Handle emergencies reported by clients (these will come in through the
+            <a href="mailto:help@opencraft.com" target="_blank">help@opencraft.com</a>
+            mailing list, which everyone receives, though for anything other
+            than obviously unexpected downtime, the firefighters should wait
+            for Xavier or Braden to triage and prioritize the issue).
+          </li>
+          <li>
+            Handle critical bugs reported by QA
+          </li>
+          <li>
+            Deploying hotfixes/security fixes on client instances
+          </li>
+          <li>
+            Provide reviews for tasks that are missing a reviewer.
+          </li>
+          <li>
+            Complete any personal spillover from the previous sprint
+          </li>
+          <li>
+            Work on client requests that can't wait until the next sprint, in particular in
+            the first week of a sprint.
+          </li>
+          <li>
+            Help ensuring a clean sprint by helping other team members, in particular in the
+            second week of a sprint.
+          </li>
+          <li>
+            Being available on the Open edX Slack (#general), answering questions and
+            responding to emergencies reported there (log time on OC-1017)
+          </li>
+          <li>
+            Watch over sandboxes (ie keep an eye on the instance manager
+            on a regular basis, few times a day, to ensure they build correctly, and debugging if needed)
+          </li>
+          <li>
+            Providing support on the mailing-list, monitoring for questions
+            on features we made (log time on OC-1017)
+          </li>
+          <li>
+            Work on additional tasks from the backlog if additional time is available
+          </li>
+        </ol>
+      </ol>
+      <p>
+        Also, if I am
+        <strong>Firefighter 1</strong>:
+      </p>
+      <ul>
+        <li>
+          I will lead the meeting on Monday
+        </li>
+        <li>
+          On Friday or Monday well before the mid-sprint meeting, I will do a sprint checkin
+          on all "backlog" and "In progress" tickets (this means to post a comment
+          on each ticket to ask how the assignee is doing and if they need help,
+          and/or asking them to update the status of the ticket if it is not clear).
+        </li>
+      </ul>
+    </html>
+  </vertical>
+
+  <vertical display_name="Business developer" url_name="whats_expected_business_developer">
+    <html url_name="whats_expected_business_developer_1">
+      <p>
+        As a <strong>business developer</strong>:
+      </p>
+      <ol>
+        <li>
+          I will ensure clear and prompt communication with prospects, leads and clients.
+        </li>
+        <li>
+          I will regularly look out for business opportunities. This includes
+          consulting public tendering platforms, sending cold emails to prospects,
+          and attending events where you could meet prospects.
+          Strategy and time spent on these tasks should be discussed with Xavier.
+        </li>
+        <li>
+          I will send the official OpenCraft offering presentation materials to prospects.
+        </li>
+        <li>
+          When meeting, I will describe OpenCraft’s offering,
+          history and philosophy to prospects.
+        </li>
+        <li>
+          I will quickly gather prospects’ needs through discussion.
+          This enables us to know if and how we can help them.
+        </li>
+        <li>
+          I will keep an open mind. Buyers might have needs
+          that we can’t fulfill yet - this might be an opportunity
+          and should be discussed with Xavier and the team.
+        </li>
+        <li>
+          When a prospect becomes a lead, I will follow-up by providing information,
+          drafting quotes, creating epics and issues and documenting in Jira
+          as much as possible so the team can follow what’s happening.
+        </li>
+        <li>
+          When managing a project, I will handle communication and coordination
+          between the client and the technical team working on the project
+        </li>
+        <li>
+          Generally, when writing to the clients, I will always make sure
+          there is either contact@ or help@ CC'd:
+          <ul>
+            <li>
+              anything related to accounting/billing/quote should be on contact@
+            </li>
+            <li>
+              and the rest on help@
+            </li>
+          </ul>
+        </li>
+        <li>
+          I will manage and monitor Betatester applications
+          and addressing user issues in Ocim
+        </li>
+      </ol>
+    </html>
+  </vertical>
+
+  <vertical display_name="Week's discovery duty assignee" url_name="whats_expected_weeks_discovery_duty_assignee">
+    <html url_name="whats_expected_weeks_discovery_duty_assignee_1">
+      <p>
+        As the <strong>week's discovery duty assignee</strong>:
+      </p>
+      <ol>
+        <li>
+          I will make sure I am the right person to take on a specific discovery, if I feel I am not
+          I will exchange work with other people from the sprint, to get someone else
+          to do it, while I help them with their tasks. It is very important to be able to estimate a
+          task well, we should make a conscious effort to assign the task to the person who can best
+          handle it, if possible (if the person is available and willing to do the work).
+        </li>
+        <li>
+          I will keep at least 10 hours of time to do discovery work
+          on any small leads/client requests that come up during the week.
+          I may still plan some tasks to pull into the sprint if no fires pop up.
+          Before pulling tasks in the sprint, use these hours to help others finishing
+          their sprint commitments.
+        </li>
+        <li>
+          If I do some discovery tasks, I will ping the sprint firefighters
+          to review the result.
+        </li>
+        <li>
+          As always, if I do the discovery, I understand that I would be expected
+          to complete the epic work later on if the client accepts it.
+          (To avoid people being forced to commit to being the owner of big epics, any
+          huge discovery stories should always be scheduled into future sprints rather
+          than directly assigned to the discovery duty assignee.)
+        </li>
+      </ol>
+    </html>
+  </vertical>
+
+  <vertical display_name="Epic owner" url_name="whats_expected_epic_owner">
+    <html url_name="whats_expected_epic_owner_1">
+      <p>
+        As an <strong>epic owner</strong>:
+      </p>
+      <ol>
+        <li>
+          <p>
+            I will keep clients updated on the status of tickets
+            (for clients with long term monthly contracts, this means updating
+            their JIRA or Trello boards as work progresses).
+          </p>
+        </li>
+        <li>
+          <p>
+            I will attend meetings with the client about the project as required,
+            e.g. weekly scrum meetings.
+            (We try to limit these sort of meetings to once a week per client at the most.)
+          </p>
+        </li>
+        <li>
+          <p>
+            I will create tickets on OpenCraft's JIRA board for upcoming work,
+            and place them into the appropriate upcoming sprints
+            so that we can get the work done well ahead of applicable deadlines.
+          </p>
+        </li>
+        <li>
+          <p>
+            On Thursday in the second week of a sprint, I will post an epic update
+            that answers these questions:
+          </p>
+        </li>
+      </ol>
+      <pre lang="text">
+        h5. Epic Update
+
+        h6. What's the status of the hours budget for this epic?
+
+        We've used ___ hours of the the __ hour budget.
+
+        h6. What's left to do? (Is it on track to be done before the deadline and within the hours budget?)
+
+        (describe)
+
+        h6. Are the deadlines in the "Timeline" section of this epic's description correct?
+
+        (/) or (x)
+
+        h6. Are all upcoming stories that we should work on in the next week or two created and in the correct upcoming sprint?
+
+        (/) or (x)
+
+        h6. Is the status of each story in the epic correct?
+
+        (/) or (x)
+
+        h6. Other Notes
+      </pre>
+      <p>
+        <em>Other Notes</em>
+        is for any concerns, questions, upcoming vacations, or anything else
+        that you think is worth mentioning because it could affect planning
+        of the next sprint or two.
+      </p>
+      <ol start="5">
+        <li>
+          <p>
+            On Thursday or Friday in the final week of each sprint, I will assign
+            upcoming stories from this epic that need to be done next sprint
+            to myself - or I will ask others from the team
+            to be either the assignee or the reviewer.
+            (If the epic owner is away, the epic reviewer is responsible for this.)
+          </p>
+        </li>
+      </ol>
+    </html>
+  </vertical>
 </sequential>
