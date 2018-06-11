@@ -71,16 +71,18 @@
   <vertical display_name="First assigned task" url_name="first_sprint_first_assigned_task">
     <html url_name="first_sprint_first_assigned_task_1">
       <p>
-        Your first technical task will be assigned to you by CTO.
-        If he hasn't done it yet, please ask him to do so.
+        Your assigned mentor (the "Reviewer 1" on your onboarding task) will
+        work with you to find a task (or two) for your first sprint(s).
+        If they haven't yet done that, please ask them to do so.
       </p>
     </html>
   </vertical>
 
-  <vertical display_name="Sprint commitments spreadsheets" url_name="first_sprint_sprint_commitments_spreadsheets">
-    <html url_name="first_sprint_sprint_commitments_spreadsheets_1">
+  <vertical display_name="Sprint planning report" url_name="first_sprint_sprint_planning_report">
+    <html url_name="first_sprint_sprint_planning_report_1">
       <p>
-        Please peek at the <a href="https://docs.google.com/spreadsheets/d/1DDY_sybGnhM5k3ttOs3C78wpXsFJAqpAcUTlvPInNJ8/edit#gid=802219907" target="_blank">sprint commitments spreadsheet</a> and modify your numbers in the appropriate columns shortly before the sprint kick-off meeting.
+        Please peek at the <a href="https://tasks.opencraft.com/rest/scriptrunner/latest/custom/showOpenCraftReport" target="_blank">Sprint Planning Report</a>
+        and make sure it shows the correct number of hours under "Goal" (how much time you'll have to work) for the upcoming two-week sprint.
       </p>
     </html>
   </vertical>
