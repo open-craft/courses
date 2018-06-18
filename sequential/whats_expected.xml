@@ -645,6 +645,18 @@
         </li>
         <li>
           <p>
+            I will set the "Original Estimate" of each ticket to the number of hours
+            listed in the discovery document. If a ticket covers a larger story
+            from the discovery document only partially, I will set its "Original Estimate"
+            to an appropriate fraction of the number of hours listed in the discovery document.
+            For any ticket that does not directly correspond to a story from the discovery document,
+            I will set the "Original Estimate" based on the amount of time that I think
+            will be required to complete the work, taking into account the number of hours
+            that remain in the epic's budget at that point in time.
+          </p>
+        </li>
+        <li>
+          <p>
             On Thursday in the second week of a sprint, I will post an epic update
             that answers these questions:
           </p>
