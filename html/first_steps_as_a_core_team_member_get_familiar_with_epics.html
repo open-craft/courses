@@ -1,9 +1,252 @@
-<p>You'll need to know how to manage epics, including the role of epic owner and epic reviewer.</p>
-<p>The way we manage tasks for clients is subject to changes and can vary between clients, but you should understand the decisions that brought us to the current way, and the approaches we have tried.</p>
-<p>The following documents are old and some sections don't reflect the current status, but they can provide important historical context and interesting discussions. Browse through them:</p>
-<p></p>
+<p>
+  You'll need to know how to manage epics, including the role of epic owner and epic reviewer.
+  As a quick <a href="https://github.com/open-craft/documentation/blob/master/Glossary.md">reminder</a>, an epic is:
+  <blockquote>
+    A big chunk of work that has one common objective. It could be a feature, customer request or business requirement.
+    These would be difficult to estimate or to complete in a single iteration. Epics contain smaller, broken down tasks
+    meant for iterative completion.
+  </blockquote>
+</p>
+<p>
+  The way we manage tasks for clients is subject to changes and can vary between clients,
+  but you should understand the decisions that brought us to the current way, and the approaches we have tried.
+</p>
+<p>
+  The following documents are old and some sections don't reflect the current status,
+  but they can provide important historical context and interesting discussions.
+  Read the first one, and browse through the others for additional context:
+</p>
+
 <ul>
-<li><a href="https://docs.google.com/document/d/1b1vYeUrY4D8LYuoAT2bVshPmWSKH127FhVA409cD5oE/edit#heading=h.b4b956lei78r" target="_blank" style="font-size: 1em;">Epic ownership</a><span style="font-size: 1em;">, about the </span><em style="font-size: 1em;">epic owner</em><span style="font-size: 1em;"> and </span><em style="font-size: 1em;">epic reviewer</em><span style="font-size: 1em;"> roles, and about tracking hours and budgets, sustainability and CEO/CTO roles. Contains many important roles descriptions</span></li>
-<li><a href="https://docs.google.com/document/d/1ViViZ3Kvpssk1PgsHL_7_0QLRpUg56IW2gzKvp5zGaU/edit#heading=h.6v6psdxwrbr0" target="_blank" style="font-size: 1em;">Sprint planning process</a><span style="font-size: 1em;"> about assigning teams of people (</span><em style="font-size: 1em;">subteams</em><span style="font-size: 1em;">) to work on particular epics. Now deprecated</span></li>
-<li><a href="https://docs.google.com/document/d/1Gl_uAWDBZhbLlG7M8-h7Ye5-kYAiakREFsSQnLTf5Ys/edit" target="_blank" style="font-size: 1em;">Issues with subteams &amp; epic management</a><span style="font-size: 1em;">, about how to remove the </span><em style="font-size: 1em;">subteams</em><span style="font-size: 1em;"> concept</span></li>
+  <li>
+    <a href="https://docs.google.com/document/d/1b1vYeUrY4D8LYuoAT2bVshPmWSKH127FhVA409cD5oE/edit#heading=h.b4b956lei78r" target="_blank">Epic ownership</a>, about the <em>epic owner</em> and <em>epic reviewer</em> roles, and about tracking hours and budgets, sustainability and CEO/CTO roles. Contains many important roles descriptions.
+  </li>
+  <li>
+    <a href="https://docs.google.com/document/d/1ViViZ3Kvpssk1PgsHL_7_0QLRpUg56IW2gzKvp5zGaU/edit#heading=h.6v6psdxwrbr0" target="_blank">Sprint planning process</a>, about assigning teams of people (<em>subteams</em>) to work on particular epics. <em>Now deprecated.</em>
+  </li>
+  <li>
+    <a href="https://docs.google.com/document/d/1Gl_uAWDBZhbLlG7M8-h7Ye5-kYAiakREFsSQnLTf5Ys/edit" target="_blank">Issues with subteams &amp; epic management</a>, about how to remove the <em>subteams</em> concept.
+  </li>
 </ul>
+
+<p>
+  After checking out these resources, be sure to have another look at
+  <a href="/jump_to_id/whats_expected_epic_owner" target="_blank">this unit</a>
+  to get a refresher on the concrete expectations that we have for epic owners.
+</p>
+
+<p>
+  Finally, here are some tips/tricks/strategies concerning different aspects of epic ownership that should be helpful to you going forward:
+</p>
+
+<h3>
+  In general
+</h3>
+
+<p>
+  Be mindful about the number of epics you take on as an epic owner.
+  If you're new to epic ownership, it's best to focus on a single epic;
+  and even if you have some experience managing epics, it's better
+  to keep the total number of epics that you own fairly small.
+  Otherwise you'll need to do a lot of context-switching during the day/week/sprint,
+  which tends to affect productivity and can even become frustrating at times.
+  Also, if you own too many epics it can be hard to devote enough time to managing each one
+  and being proactive where you should be. As a rule of thumb, aim to own one or two epics at most.
+</p>
+
+<h3>
+  Discovery phase
+</h3>
+
+<ul>
+  <li>
+    Before doing a discovery for a new project/client, get clarity on the level of detail that is required.
+    If the ticket description doesn't say, ask the person that created the ticket whether you should do a high-level discovery
+    with <a href="https://github.com/open-craft/documentation/blob/master/How_to_do_estimates.md#how-to-do-a-ballpark-estimate" target="_blank">ballpark estimates</a>,
+    or a more detailed discovery with stories and <a href="https://github.com/open-craft/documentation/blob/master/How_to_do_estimates.md#how-to-set-an-hours-budget-for-an-epic" target="_blank">detailed estimates</a>.
+    Make sure to read the entire documentation on <a href="https://github.com/open-craft/documentation/blob/master/How_to_do_estimates.md#how-to-do-a-ballpark-estimate" target="_blank">how to do estimates</a> at least once,
+    and reference relevant parts of it while doing the discovery.
+  </li>
+  <li>
+    Think about whether or not it would make sense to set up a weekly stand-up meeting with the client for the duration of the project.
+    <ul>
+      <li>
+        This is especially important if multiple teams are involved in the project.
+      </li>
+      <li>
+        The purpose of that meeting would be to provide status updates to the client,
+        get status updates from other teams that are involved in the project, address any open questions,
+        and make sure all parties are unblocked and clear on the next steps.
+      </li>
+      <li>
+        It should be enough to allocate 30-45m per meeting.
+      </li>
+      <li>
+        It's important to determine whether this is something that the client would want
+        prior to the implementation phase because we will need to account for it in the discovery document
+        and quote that we send to the client. A budget of 1-2h per week for meetings should work well in most cases.
+        (Note that it can't just be 30m because you'll also need a little bit of time to prepare for/follow up on each meeting.)
+      </li>
+      <li>
+        Don't schedule the weekly meeting (or any other meeting that you might need to set up over the course of the project)
+        for right before your EOD. To make sure you'll have time to list out (or directly follow-up on) any action items
+        and add your notes from the meeting to existing tickets as necessary, the meeting should end
+        no later than 30m to 1h before the time you normally stop working.
+      </li>
+    </ul>
+  </li>
+  <li>
+    Talk to Braden and/or Xavier to get an idea of the total number of hours that OpenCraft will be able to allocate to the project.
+    <ul>
+      <li>
+        Note that the number of hours that OpenCraft can allocate to the project <em>per month</em> might differ month-to-month.
+        If that's the case you'll need to keep it in mind when planning out different phases of the project,
+        and when scheduling stories for specific sprints.
+      </li>
+      <li>
+        If the project has a deadline built-in (such as the start of a course that is supposed to be using a set of features
+        to develop as part of the project), the number of hours that OpenCraft can allocate to the project
+        will affect the <em>scope</em> of the project. (More specifically, it will be an upper bound
+        for the amount of work that we can schedule and complete prior to the deadline.)
+      </li>
+      <li>
+        If the project does <em>not</em> have a deadline built-in, the number of hours that OpenCraft can allocate to the project
+        will affect the <em>duration</em> of the project.
+      </li>
+    </ul>
+  </li>
+  <li>
+    Leave time for a QA phase after delivering the features laid out in the discovery document.
+    This is especially important for projects that are about developing features that a client wants to use in an upcoming course.
+    Ideally, you should allow 2-3 sprints for QA for projects with specific deadlines, but 1 sprint is the absolute minimum.
+    If you only have 1 sprint for QA, make sure that the client delivers their feedback within the first half of the first week of that sprint.
+    Otherwise it will be very tricky to address their feedback, deploy changes, and give the client enough time
+    for another round of testing before the final deadline (which might coincide with the start of a course
+    that depends on the features developed over the course of the project).
+  </li>
+  <li>
+    If your epic has any dependencies on edX (product approval of the plan, PR reviews, etc.)
+    then leave lots of time for those to happen and have a contingency plan for what to do if edX delays things too long.
+    Also, try to get specific people from edX to be aware of the project and its timeline,
+    and to commit to being available for product and technical reviews.
+  </li>
+</ul>
+
+<h3>
+  Implementation phase
+</h3>
+
+<ul>
+  <li>
+    To help everyone (including yourself) get a sense of where a project is at, add a timeline to the epic description.
+    <ul>
+      <li>
+        In the beginning stages of a project, the timeline can be fairly high-level.
+        For example, it could just list the main phases of the project:
+        <ul>
+          <li>
+            Jan 2019: Discovery phase
+          </li>
+          <li>
+            Feb 2019 -- April 2019: Implementation phase
+          </li>
+          <li>
+            May 2019: Deployment phase
+          </li>
+          <li>
+            June 2019: QA
+          </li>
+          <li>
+            etc.
+          </li>
+        </ul>
+      </li>
+      <li>
+        Note that for future reference it's helpful to mention all phases of the project,
+        even ones that are already in the past at the time you create the timeline.
+      </li>
+      <li>
+        At any given stage of the project, the timeline for the next two sprints should be laid out in detail:
+        Add the name of each sprint to the project phase that it belongs to, mentioning when it ends,
+        and list the stories that are scheduled for it. Once all of the stories belonging to a given sprint are done,
+        put a checkmark next to the name of the sprint. A good point in time to make these updates
+        is towards the end of a sprint, when working on the epic update.
+      </li>
+    </ul>
+    This format provides a concise overview of the project's status to anyone that might be looking at your epic.
+  </li>
+  <li>
+    If the scope/plan for the project changes significantly, try to keep the epic description field in Jira updated,
+    so that it always has a useful and accurate explanation of the project, plan, timeline, etc.
+  </li>
+  <li>
+    Look at epic updates as a service to yourself, not just to the person who is supposed to eventually read it, whoever that may be.
+    It allows you a dedicated time to consolidate what is going on with the epic, to do any higher-level planning work,
+    and to ask epic-level questions to your peers in the context of the update. It's one of the duties
+    that at first may look to be a chore you just have to do as epic owner, but you and your epic can benefit tremendously
+    from it just through a change in perspective. Spend the next epic update trying to really drill a little deeper,
+    and you'd be surprised how much more of a handle you feel you have on it.
+  </li>
+  <li>
+    If you are planning to go on vacation at some point over the course of the project, make sure to coordinate
+    with your epic reviewer a few weeks ahead of time. If the project includes weekly stand-ups, your epic reviewer
+    will need to be able to fill in for you at these meetings. This means that they will need to be familiar
+    with the structure of the meetings, and that while you're away the meetings will need to happen at a time
+    that is not in the middle of the night for them. So if necessary, make sure to move the meeting to a different time
+    before you go on vacation. Let the client know when you will be away, and who will be filling in for you.
+    Also, have the epic reviewer attend the last one or two meetings before you leave so they can meet the client
+    and see first-hand what the structure of the meetings is like.
+  </li>
+</ul>
+
+<h3>
+  Client communication
+</h3>
+
+<ul>
+  <li>
+    When a client reaches out to you (via e-mail, Trello, JIRA, etc.), don't feel compelled to reply right away.
+    Instead, take a moment to determine
+    <ul>
+      <li>how important their request is relative to other work from the project that is currently in flight,</li>
+      <li>whether the current sprint includes a task that the request is related to, and</li>
+      <li>what the best way of addressing the request would be.</li>
+    </ul>
+    We have a policy to respond to client requests within 24h, so unless you're dealing with something that needs to be addressed right away (such as a client's instance being down), it's perfectly fine to take some time to figure out the best way forward.
+  </li>
+  <li>Make sure to thank the client for any feedback that you get from them, even if it's negative. If necessary, apologize and admit mistakes, but mainly focus on finding a solution, and involve the client in the process of coming up with a solution as much as possible.</li>
+</ul>
+
+<h3>
+  Day-to-day planning
+</h3>
+
+<p>
+  At the start of your day, get an overview of all updates related to your epic. (You can log time spent on this on the epic itself.)
+</p>
+<ul>
+  <li>
+    Create tasks for any fires that might have come up and coordinate with the rest of the team to make sure they can be addressed right away.
+    <ul>
+      <li>
+        In most cases your first point of contact should be the epic reviewer and/or other team members
+        that already have context on the project. If they don't have time to address the fire,
+        the next step will be to involve the sprint firefighters to see if they can help free up some time
+        for the epic reviewer and/or other team members that already have context on the project
+        and should ideally be working on the fire.
+      </li>
+      <li>
+        Don't forget to notify the client that we are looking into whatever issue they reported.
+      </li>
+    </ul>
+  </li>
+  <li>
+    Determine priority for the remaining updates, relate them to existing tickets, and decide when to work on them.
+  </li>
+</ul>
+<p>
+  At the end of this process you should be fully up-to-speed on the project's status,
+  and it should be clear to you what aspects of the project (tasks, reviews, client communication)
+  you'll need to work on that day. It should also help minimize interruptions throughout the rest of the day,
+  allowing you to focus on completing the work that's on your agenda for the day.
+</p>
